@@ -8,6 +8,10 @@ body {
     padding: 16px;
 }
 
+h1 {
+    cursor: pointer;
+}
+
 nav {
     display: flex;
     padding: 16px;
@@ -22,6 +26,7 @@ ul {
 ul li {
     list-style: none;
     margin-right: 16px;
+    cursor: pointer;
 }
 
 input[type='search'] {
