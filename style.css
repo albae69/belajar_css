@@ -65,7 +65,20 @@ p {
     word-break: break-all;
 }
 
+nav#mobile-header {
+    display: none;
+}
+
 @media only screen and (max-width: 800px) {
+    nav#header {
+        display: none;
+    }
+
+    nav#mobile-header {
+        display: block;
+        text-align: center;
+    }
+
     .wrap-box {
         flex-direction: column;
     }
