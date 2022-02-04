@@ -46,9 +46,30 @@ input[type='search'] {
     width: 100%;
 }
 
+.image {
+    height: 200px;
+    width: 100%;
+    background-color: lightseagreen;
+    border-radius: 8px;
+    margin-bottom: 16px;
+}
 .box {
-    height: 300px;
+    min-height: 300px;
     width: 100%;
     background-color: lightgray;
     margin: 16px;
+    padding: 16px;
+}
+
+p {
+    word-break: break-all;
+}
+
+@media only screen and (max-width: 800px) {
+    .wrap-box {
+        flex-direction: column;
+    }
+    .box {
+        width: 90%;
+    }
 }
